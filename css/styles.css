@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.container{
+    width: 970px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    width: 28px;
+}
+
+.nav{
+	width: 100%
+	height: 100%;
+	display:flex;
+	align-items:center;
+}
+
+.logo{
+	margin-right: 60px;
+    display: block;
+}
+
+.logo li{
+	margin-right: 60px;
+}
+
+.offer-wrapper{
+    display: flex;
+    align-items: end;
+    margin-top: 0px;
+}
+
+.offer{
+	width: 312px;
+	margin-left: 60px;
+}
+
+.offer-blog{
+	color: green;
+	width: 312px;
+	margin-left: 0;
+}
+
+.offer-contact{
+    width: 100%;
+}
+
+.blog-introtext{
+	display: flex;
+    width: 585px;
+    justify-content: center;
+}
+
+.imgcontacts{
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.vegetable{
+    width: 330px;
+
+}
+
+.contacts-item{
+	width: 312px;
+	margin-left: 0;
+}
+
+.btn {
+    background: #09A66D;
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 11px 35px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    width: 148px;
+    transition: all 0.5s easy;
+}
+
+.btn:hover{
+    background: #77b8a0;
+}
+
+.btn-blog {
+    background: #09A66D;
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 11px 35px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    width: 168px;
+    text-align: center;
+    transition: all 0.5s easy;
+}
+
+.btn-blog:hover{
+    background: grey;
+}
+
+.btn-contacts {
+    background: #000000;
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 11px 35px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    width: 168px;
+    text-align: center;
+    transition: all 0.5s easy;
+}
+
+.btn-contacts:hover{
+    background: grey;
+}
+
+.imgh3{
+	margin-bottom: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto; 
+}
+
+article {
+    flex: 2;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+h1, h1, h3, h4{
+	margin: 0;
+    padding: 0;
+}
+
+.introtext{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digit {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 54px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 34px;
+    transition: all 0.5s ease;
+}
+
+.digit-item:hover .digit {
+    background: #000;
+    color: #fff
+}
+
+.digit-title {
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.digits {
+    margin-top: 30px;
+    display: flex;
+    width: 690px;
+}
+
+.digit-wrap{
+    width: 230px;
+}
+.digit-wrap-tw{
+    width: auto;
+}
+
+.blogs{
+	width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gallery {
+  	display: flex;
+    margin-top: 30px;
+  	flex-wrap: wrap;
+}
+ 
+.gallery img {
+  cursor: pointer;
+  
+}
+
+/* Enable vertical scrolling for <article> and <aside> when content exceeds the container height */
+article, aside {
+    overflow-y: auto;
+}
